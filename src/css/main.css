@@ -1,0 +1,31 @@
+.item-container {
+display: flex;
+margin: 16px;
+}
+.text-container {
+    margin: 5px 0;
+    width: 15%;
+}
+.text-control {
+    height: 20px;
+    padding: 0 40px 0 5px;
+}
+.radio-container{
+    display: flex;
+    flex-direction: column;
+}
+.radio-container p {
+    margin: 3px 0;
+}
+.error {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    color: red;
+}
+.form-control {
+    margin-right: 10px;
+}
+.control-error {
+    border-color: red;
+}
